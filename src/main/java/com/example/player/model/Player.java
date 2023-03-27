@@ -31,31 +31,31 @@ public class Player{
         this.role=role;
     }
     
-    public void setplayerId(int playerid){
+    public void setPlayerId(int playerid){
         this.playerId=playerId;
     }
     
-    public int getplayerId(){
+    public int getPlayerId(){
         return playerId;
     }
-    public void setplayerName(String playerName){
+    public void setPlayerName(String playerName){
         this.playerName=playerName;
     }
-    public String getplayerName(){
+    public String getPlayerName(){
         return playerName;
     }
 
-    public void setjerseyNumber(int jerseyNumber){
+    public void setJerseyNumber(int jerseyNumber){
         this.jerseyNumber=jerseyNumber;
     }
-    public int getjerseyNumber(){
+    public int getJerseyNumber(){
         return jerseyNumber;
     }
 
-    public void setrole(String role){
+    public void setRole(String role){
         this.role=role;
     }
-    public String getrole(){
+    public String getRole(){
         return role;
     }
 }

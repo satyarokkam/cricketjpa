@@ -1,3 +1,4 @@
+
 package com.example.player.service;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
@@ -48,14 +49,14 @@ public class PlayerJpaService implements PlayerRepository{
 		
 		try{
 			Player newPlayer=playerJpaRepository.findById(playerId).get();
-			if(player.getplayerName()!=null){
-				newPlayer.setplayerName(player.getplayerName());
+			if(player.getPlayerName()!=null){
+				newPlayer.setPlayerName(player.getPlayerName());
 			}
-			if(player.getjerseyNumber()!=0){
-				newPlayer.setjerseyNumber(player.getjerseyNumber());
+			if(player.getJerseyNumber()!=0){
+				newPlayer.setJerseyNumber(player.getJerseyNumber());
 			}
-			if(player.getrole()!=null){
-				newPlayer.setrole(player.getrole());
+			if(player.getRole()!=null){
+				newPlayer.setRole(player.getRole());
 			}
 
 			playerJpaRepository.save(newPlayer);
